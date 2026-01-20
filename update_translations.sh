@@ -5,8 +5,8 @@ ENCODING="UTF-8"
 LANGUAGE_BLP="--language=JavaScript"
 LINGUAS_FILE="po/LINGUAS"
 
-grep -v '\.blp$' po/POTFILES.in > /tmp/POTFILES_TOMATILLO
-grep '\.blp$' po/POTFILES.in > /tmp/POTFILES_TOMATILLO.blp
+grep -v '\.blp$' po/POTFILES.in > /tmp/POTFILES_CINE
+grep '\.blp$' po/POTFILES.in > /tmp/POTFILES_CINE.blp
 
 # create pot
 xgettext --files-from=/tmp/POTFILES_TOMATILLO \
@@ -15,7 +15,7 @@ xgettext --files-from=/tmp/POTFILES_TOMATILLO \
          --keyword=_ --keyword=C_:1c,2
 
 # joint pot
-xgettext --files-from=/tmp/POTFILES_TOMATILLO.blp \
+xgettext --files-from=/tmp/POTFILES_CINE.blp \
          --output="$OUTPUT" --package-name="$PACKAGE_NAME" \
          --from-code="$ENCODING" --add-comments \
          --keyword=_ --keyword=C_:1c,2 \
@@ -23,7 +23,7 @@ xgettext --files-from=/tmp/POTFILES_TOMATILLO.blp \
          --join-existing
 
 
-rm /tmp/POTFILES_TOMATILLO /tmp/POTFILES_TOMATILLO.blp
+rm /tmp/POTFILES_CINE /tmp/POTFILES_CINE.blp
 
 sed -i 's/charset=CHARSET/charset=UTF-8/g' $OUTPUT
 
