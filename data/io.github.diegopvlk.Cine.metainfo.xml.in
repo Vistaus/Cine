@@ -38,19 +38,19 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://video.png</image>
+      <image>https://raw.githubusercontent.com/diegopvlk/Cine/3369fdedfe1a373db64f1d6c68cec04eba14a400/screenshots/video.png</image>
       <caption>Video Playing</caption>
     </screenshot>
     <screenshot>
-      <image>https://preferences.png</image>
+      <image>https://raw.githubusercontent.com/diegopvlk/Cine/3369fdedfe1a373db64f1d6c68cec04eba14a400/screenshots/preferences.png</image>
       <caption>Preferences</caption>
     </screenshot>
     <screenshot>
-      <image>https://options.png</image>
+      <image>https://raw.githubusercontent.com/diegopvlk/Cine/3369fdedfe1a373db64f1d6c68cec04eba14a400/screenshots/options.png</image>
       <caption>Video Options</caption>
     </screenshot>
     <screenshot>
-      <image>https://window.png</image>
+      <image>https://raw.githubusercontent.com/diegopvlk/Cine/3369fdedfe1a373db64f1d6c68cec04eba14a400/screenshots/window.png</image>
       <caption>Main Window</caption>
     </screenshot>
   </screenshots>
@@ -71,7 +71,7 @@
   </requires>
 
   <releases>
-    <release version="1.0.0" date="2026-mm-dd">
+    <release version="1.0.0" date="2026-01-20">
       <description translate="no">
         <ul>
           <li>Initial Release</li>
