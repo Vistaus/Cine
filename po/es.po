@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.diegopvlk.Cine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 16:35-0300\n"
+"POT-Creation-Date: 2026-01-21 23:48-0300\n"
 "PO-Revision-Date: 2025-12-15 12:00-0300\n"
 "Last-Translator: Diego Povliuk <diegopvlk@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -590,3 +590,8 @@ msgstr "Arrastre y Suelte Archivos Aquí"
 #: src/window.blp:1022
 msgid "Open…"
 msgstr "Abrir…"
+
+#: src/preferences.blp:134
+msgid ""
+"This requires flatpak permission to read the folder where the video is stored"
+msgstr "Esto requiere el permiso de flatpak para leer la carpeta donde está almacenado el video"
