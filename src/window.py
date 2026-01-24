@@ -594,7 +594,7 @@ class CineWindow(Adw.ApplicationWindow):
 
     def _on_progress_motion(self, _controller, x, _y):
         width = self.video_progress_scale.get_width()
-        duration = self.video_progress_adjustment.get_upper()
+        duration = self.video_progress_adjustment.props.upper
         if width <= 0 or duration <= 0:
             return
 
@@ -617,9 +617,11 @@ class CineWindow(Adw.ApplicationWindow):
             markup = f"{time_str}"
 
         self.chapter_popover_label.set_markup(markup)
-        rect = Gdk.Rectangle()
 
-        rect.x = int(x)
+        clamped_x = max(2, min(x, width - 2))
+
+        rect = Gdk.Rectangle()
+        rect.x = clamped_x
         rect.y = 2
         rect.width = 41
 
