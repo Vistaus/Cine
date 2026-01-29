@@ -954,7 +954,10 @@ class CineWindow(Adw.ApplicationWindow):
         if not mpv_button:
             return
 
-        self.mpv.keydown(mpv_button)
+        if "MBTN_BACK" or "MBTN_FORWARD" in mpv_button:
+            self.mpv.keypress(mpv_button)
+        else:
+            self.mpv.keydown(mpv_button)
 
         self._show_ui()
         self._hide_ui_timeout()
