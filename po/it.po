@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.diegopvlk.Cine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-31 13:57-0200\n"
+"POT-Creation-Date: 2026-01-31 16:36-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Neko the gamer <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.diegopvlk.Cine.desktop.in:2 src/main.py:210 src/mpris.py:146
-#: src/mpris.py:364 src/window.py:138 src/window.py:234 src/window.py:1259
+#: src/mpris.py:364 src/window.py:138 src/window.py:234 src/window.py:1260
 #: src/window.blp:6
 msgid "Cine"
 msgstr "Cine"
@@ -43,8 +43,8 @@ msgid ""
 "Cine combines a clean interface with a high-performance engine to deliver a "
 "seamless viewing experience."
 msgstr ""
-"Cine combina un'interfaccia pulita con un motore ad alte prestazioni per dare "
-"un'esperienza visiva più fluida."
+"Cine combina un'interfaccia pulita con un motore ad alte prestazioni per "
+"dare un'esperienza visiva più fluida."
 
 #: data/io.github.diegopvlk.Cine.metainfo.xml.in:27
 msgid "Simple Design: A refined, distraction-free interface"
@@ -55,25 +55,26 @@ msgid ""
 "MPV-Based: Leverages the robust power of MPV for great playback and format "
 "support"
 msgstr ""
-"Basato su MPV: Sfrutta la robusta potenza di MPV per un'ottima riproduzione e "
-"un ottimo supporto di formati"
+"Basato su MPV: Sfrutta la robusta potenza di MPV per un'ottima riproduzione "
+"e un ottimo supporto di formati"
 
 #: data/io.github.diegopvlk.Cine.metainfo.xml.in:29
 msgid ""
 "Audio and Subtitles: Control track selection and synchronization for both"
 msgstr ""
-"Audio e sottotitoli: controlla la selezione delle tracce e la sincronizzazione per entrambi"
+"Audio e sottotitoli: controlla la selezione delle tracce e la "
+"sincronizzazione per entrambi"
 
 #: data/io.github.diegopvlk.Cine.metainfo.xml.in:30
 msgid ""
 "Video Controls: Easily adjust brightness, contrast, zoom, aspect ratio, etc."
 msgstr ""
-"Controlli video: Aggiusta facilemte la luminosità, il contrasto, lo zoom, il rapporto, ecc."
+"Controlli video: Aggiusta facilemte la luminosità, il contrasto, lo zoom, il "
+"rapporto, ecc."
 
 #: data/io.github.diegopvlk.Cine.metainfo.xml.in:42
 msgid "Video Playing"
-msgstr ""
-"Riproduzione video"
+msgstr "Riproduzione video"
 
 #: data/io.github.diegopvlk.Cine.metainfo.xml.in:46 src/preferences.blp:5
 #: src/window.blp:122
@@ -88,20 +89,20 @@ msgstr "Opzioni video"
 msgid "Main Window"
 msgstr "Finestra Principale"
 
-#: src/main.py:218
+#. Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
+#: src/main.py:219
 msgid "translator-credits"
-msgstr ""
-"Neko the gamer <https://github.com/Nekothegamer>"
+msgstr "Neko the gamer <https://github.com/Nekothegamer>"
 
 #: src/mpris.py:153 src/mpris.py:221 src/mpris.py:356
 msgid "Unknown title"
 msgstr "Titolo sconosciuto"
 
-#: src/options.py:149 src/options.blp:79
+#: src/options.py:151 src/options.blp:79
 msgid "Original"
 msgstr "Originale"
 
-#: src/playlist.py:47 src/window.py:867 src/window.py:1144
+#: src/playlist.py:47 src/window.py:868 src/window.py:1145
 msgid "File Error"
 msgstr "Errore file"
 
@@ -109,7 +110,7 @@ msgstr "Errore file"
 msgid "Add Files"
 msgstr "Aggiungi file"
 
-#: src/shortcuts.py:29 src/shortcuts.py:30 src/window.py:1189
+#: src/shortcuts.py:29 src/shortcuts.py:30 src/window.py:1190
 #: src/window.blp:197
 msgid "Volume"
 msgstr "Volume"
@@ -343,7 +344,7 @@ msgstr "Riproduzione"
 msgid "Miscellaneous"
 msgstr "Miscellanee"
 
-#: src/window.py:433 src/window.py:860 src/window.blp:96
+#: src/window.py:433 src/window.py:861 src/window.blp:96
 msgid "Add Subtitle Track"
 msgstr "Aggiungi traccia sottotitoli"
 
@@ -388,7 +389,7 @@ msgstr "Audio"
 msgid "Media"
 msgstr "Media"
 
-#: src/window.py:864 src/window.py:879 src/playlist.blp:78
+#: src/window.py:865 src/window.py:880 src/playlist.blp:78
 msgid "Add to Playlist"
 msgstr "Aggiungi alla playlist"
 
@@ -535,13 +536,15 @@ msgstr "Salva la posizione del video alla chiusura"
 
 #: src/preferences.blp:119
 msgid "Also save options like brightness, subtitle delay, etc."
-msgstr "Salva anche le opzioni come la luminosità, il ritardo dei sottotitoli, ecc."
+msgstr ""
+"Salva anche le opzioni come la luminosità, il ritardo dei sottotitoli, ecc."
 
 #: src/preferences.blp:134
 msgid ""
 "Requires flatpak permission to read the folder where the video is stored"
 msgstr ""
-"È richiesto di impostare i permessi al flatpak per leggere la cartella dov'è memorizzato il video"
+"È richiesto di impostare i permessi al flatpak per leggere la cartella dov'è "
+"memorizzato il video"
 
 #: src/shortcuts-dialog.blp:8
 msgid "Shortcuts"
