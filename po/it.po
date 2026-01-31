@@ -503,7 +503,7 @@ msgstr "Font sottotitoli"
 
 #: src/preferences.blp:56
 msgid "Some fonts may not work"
-msgstr "Alcuni font potrebbero  non funzionare"
+msgstr "Alcuni font potrebbero non funzionare"
 
 #: src/preferences.blp:89
 msgid "Subtitle Scale"
