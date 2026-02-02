@@ -1049,9 +1049,9 @@ class CineWindow(Adw.ApplicationWindow):
                 if ptr:
                     param["wl_display"] = ptr
             elif isinstance(display, GdkX11.X11Display):
-                gdk_c.gdk_x11_display_get_x11_display.restype = ctypes.c_void_p
-                gdk_c.gdk_x11_display_get_x11_display.argtypes = [ctypes.c_void_p]
-                ptr = gdk_c.gdk_x11_display_get_x11_display(hash(display))
+                gdk_c.gdk_x11_display_get_xdisplay.restype = ctypes.c_void_p
+                gdk_c.gdk_x11_display_get_xdisplay.argtypes = [ctypes.c_void_p]
+                ptr = gdk_c.gdk_x11_display_get_xdisplay(hash(display))
                 if ptr:
                     param["x11_display"] = ptr
         except Exception as e:
