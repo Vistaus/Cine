@@ -80,7 +80,7 @@ s              screenshot #{_("Take Screenshot With Subtitles")}
 S              screenshot video #{_("Take Screenshot Without Subtitles")}
 i              script-binding stats/display-stats #{_("Statistics")}
 I              script-binding stats/display-stats-toggle #{_("Statistics Overlay")}
-L              cycle-values loop-file "inf" "no"; show-text "{_("Loop")}: ${{loop-file}}" #{_("File Loop")}
+L              cycle-values loop-file "inf" "no"; show-text "{_("Loop")}: ${{loop-file}}" #{_("Loop File")}
 1              add contrast -1; show-text "{_("Contrast")}: ${{contrast}}" #{_("Decrease Contrast")}
 2              add contrast 1; show-text "{_("Contrast")}: ${{contrast}}" #{_("Increase Contrast")}
 3              add brightness -1; show-text "{_("Brightness")}: ${{brightness}}" #{_("Decrease Brightness")}
