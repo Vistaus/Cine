@@ -265,7 +265,8 @@ class CineWindow(Adw.ApplicationWindow):
                 self.mpv, "volume", self.volume_scale_adjustment.props.value
             ),
         )
-        self.volume_scale.add_mark(100.0, Gtk.PositionType.BOTTOM, None)
+        if max_vol > 100:
+            self.volume_scale.add_mark(100.0, Gtk.PositionType.BOTTOM, None)
 
         self.video_progress_adjustment.connect(
             "value-changed", self._on_progress_adjusted
